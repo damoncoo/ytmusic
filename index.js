@@ -27,7 +27,7 @@ if (ytdl.validateURL(options.url) == false) {
     throw new Error("链接错误")
 }
 
-yt.upload(options.url, options.singer,
+yt.upload(options.singer,
     options.name,
     options.url,
     options.access_key,
