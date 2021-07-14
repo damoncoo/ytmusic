@@ -1,0 +1,22 @@
+{
+  "name": "ytmusic",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:damoncoo/ytmusic.git",
+  "author": "Damon Coo <damoncoo@gmail.com>",
+  "scripts": {
+    "upload": "node lib/yt_test.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "commander": "^8.0.0",
+    "iconv-lite": "^0.6.3",
+    "md5": "^2.3.0",
+    "qiniu": "^7.4.0",
+    "ytb2mp3": "^0.2.9",
+    "ytdl": "^1.4.1",
+    "ytdl-core": "^4.8.3"
+  },
+  "devDependencies": {}
+}

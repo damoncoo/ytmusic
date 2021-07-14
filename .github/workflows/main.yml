@@ -1,0 +1,28 @@
+name: Build
+
+on:
+  repository_dispatch:
+    types: [start-yt-download]
+
+jobs:
+  build:
+    name: Build
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@master
+
+      - name: Install dependency
+        run: npm install
+
+      - name: Set up ffmpeg
+        run: brew install ffmpeg
+
+      - name: Download ytb2mp3
+        run: |
+          npm i -g ytb2mp3
+          ytb2mp3 ${{ github.event.client_payload.url }} --set-output-path music.mp3
+
+      - name: Start job
+        run: |
+          node index.js -u ${{ github.event.client_payload.url }} -s ${{ github.event.client_payload.singer }} -n ${{ github.event.client_payload.name }} -a ${{ github.event.client_payload.access_key }}  -S ${{ github.event.client_payload.secret }}   -e ${{ github.event.client_payload.end_point }}  -b ${{ github.event.client_payload.bucket }}  -U ${{ github.event.client_payload.bucket }} -P ${{ github.event.client_payload.bucket }}
