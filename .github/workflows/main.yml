@@ -18,10 +18,10 @@ jobs:
       - name: Set up ffmpeg
         run: brew install ffmpeg
 
-      - name: Download ytb2mp3
-        run: |
-          npm i -g ytb2mp3
-          ytb2mp3 ${{ github.event.client_payload.url }} --set-output-path music.mp3
+      # - name: Download ytb2mp3
+      #   run: |
+      #     npm i -g ytb2mp3
+      #     ytb2mp3 ${{ github.event.client_payload.url }} --set-output-path music.mp3
 
       - name: Start job
         run: |
