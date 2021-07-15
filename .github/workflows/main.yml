@@ -15,6 +15,9 @@ jobs:
       - name: Install dependency
         run: npm install
 
+      - name: Set up ffmpeg
+        run: brew install ffmpeg
+
       - name: Start job
         run: |
           node index.js -u ${{ github.event.client_payload.url }} -s ${{ github.event.client_payload.singer }} -n ${{ github.event.client_payload.name }} -a ${{ github.event.client_payload.access_key }}  -S ${{ github.event.client_payload.secret }}   -e ${{ github.event.client_payload.end_point }}  -b ${{ github.event.client_payload.bucket }} -q ${{ github.event.client_payload.qiniu_point }} -U ${{ github.event.client_payload.user }} -P ${{ github.event.client_payload.password }}
