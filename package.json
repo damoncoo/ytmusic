@@ -16,7 +16,7 @@
     "qiniu": "^7.4.0",
     "ytb2mp3": "^0.2.9",
     "ytdl": "^1.4.1",
-    "ytdl-core": "^4.8.3"
+    "ytdl-core": "^4.9.0"
   },
   "devDependencies": {}
 }

@@ -1,3 +1,4 @@
 *.mp3
 *_test.js
 start.sh
+package-lock.json

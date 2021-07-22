@@ -13,7 +13,10 @@ jobs:
         uses: actions/checkout@master
 
       - name: Install dependency
-        run: npm install
+        run: |
+          npm install ytb2mp3@latest --save
+          npm install ytdl-core@latest --save
+          npm install
 
       - name: Set up ffmpeg
         run: brew install ffmpeg
