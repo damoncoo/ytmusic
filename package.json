@@ -14,6 +14,7 @@
     "iconv-lite": "^0.6.3",
     "md5": "^2.3.0",
     "qiniu": "^7.4.0",
+    "youtube-mp3-downloader": "^0.7.7",
     "ytb2mp3": "^0.2.9",
     "ytdl": "^1.4.1",
     "ytdl-core": "^4.9.0"

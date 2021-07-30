@@ -102,9 +102,9 @@ call-bind@^1.0.0:
     get-intrinsic "^1.0.2"
 
 chalk@^4.0.0:
-  version "4.1.1"
-  resolved "https://registry.nlark.com/chalk/download/chalk-4.1.1.tgz?cache=0&sync_timestamp=1618995367379&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fchalk%2Fdownload%2Fchalk-4.1.1.tgz#c80b3fab28bf6371e6863325eee67e618b77e6ad"
-  integrity sha1-yAs/qyi/Y3HmhjMl7uZ+YYt35q0=
+  version "4.1.2"
+  resolved "https://registry.nlark.com/chalk/download/chalk-4.1.2.tgz?cache=0&sync_timestamp=1627646655305&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fchalk%2Fdownload%2Fchalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
+  integrity sha1-qsTit3NKdAhnrrFr8CqtVWoeegE=
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
@@ -141,13 +141,13 @@ colors@^1.1.2:
 
 commander@^6.1.0:
   version "6.2.1"
-  resolved "https://registry.nlark.com/commander/download/commander-6.2.1.tgz?cache=0&sync_timestamp=1624609570521&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fcommander%2Fdownload%2Fcommander-6.2.1.tgz#0792eb682dfbc325999bb2b84fddddba110ac73c"
+  resolved "https://registry.nlark.com/commander/download/commander-6.2.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fcommander%2Fdownload%2Fcommander-6.2.1.tgz#0792eb682dfbc325999bb2b84fddddba110ac73c"
   integrity sha1-B5LraC37wyWZm7K4T93duhEKxzw=
 
 commander@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.nlark.com/commander/download/commander-8.0.0.tgz?cache=0&sync_timestamp=1624609570521&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fcommander%2Fdownload%2Fcommander-8.0.0.tgz#1da2139548caef59bd23e66d18908dfb54b02258"
-  integrity sha1-HaITlUjK71m9I+ZtGJCN+1SwIlg=
+  version "8.1.0"
+  resolved "https://registry.nlark.com/commander/download/commander-8.1.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fcommander%2Fdownload%2Fcommander-8.1.0.tgz#db36e3e66edf24ff591d639862c6ab2c52664362"
+  integrity sha1-2zbj5m7fJP9ZHWOYYsarLFJmQ2I=
 
 configstore@^5.0.1:
   version "5.0.1"
@@ -403,7 +403,7 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0:
 
 has-flag@^4.0.0:
   version "4.0.0"
-  resolved "https://registry.npm.taobao.org/has-flag/download/has-flag-4.0.0.tgz#944771fd9c81c81265c4d6941860da06bb59479b"
+  resolved "https://registry.nlark.com/has-flag/download/has-flag-4.0.0.tgz#944771fd9c81c81265c4d6941860da06bb59479b"
   integrity sha1-lEdx/ZyByBJlxNaUGGDaBrtZR5s=
 
 has-symbols@^1.0.1:
@@ -425,7 +425,7 @@ hash-arg@^1.0.3:
 
 home-dir@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.nlark.com/home-dir/download/home-dir-1.0.0.tgz#2917eb44bdc9072ceda942579543847e3017fe4e"
+  resolved "https://registry.npm.taobao.org/home-dir/download/home-dir-1.0.0.tgz#2917eb44bdc9072ceda942579543847e3017fe4e"
   integrity sha1-KRfrRL3JByztqUJXlUOEfjAX/k4=
 
 homedir@^0.6.0:
@@ -691,7 +691,7 @@ optionator@^0.8.1:
 
 os-name@~1.0.3:
   version "1.0.3"
-  resolved "https://registry.npm.taobao.org/os-name/download/os-name-1.0.3.tgz#1b379f64835af7c5a7f498b357cb95215c159edf"
+  resolved "https://registry.nlark.com/os-name/download/os-name-1.0.3.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fos-name%2Fdownload%2Fos-name-1.0.3.tgz#1b379f64835af7c5a7f498b357cb95215c159edf"
   integrity sha1-GzefZINa98Wn9JizV8uVIVwVnt8=
   dependencies:
     osx-release "^1.0.0"
@@ -747,7 +747,7 @@ process-nextick-args@~2.0.0:
 
 progress-stream@^2.0.0:
   version "2.0.0"
-  resolved "https://registry.npm.taobao.org/progress-stream/download/progress-stream-2.0.0.tgz#fac63a0b3d11deacbb0969abcc93b214bce19ed5"
+  resolved "https://registry.nlark.com/progress-stream/download/progress-stream-2.0.0.tgz#fac63a0b3d11deacbb0969abcc93b214bce19ed5"
   integrity sha1-+sY6Cz0R3qy7CWmrzJOyFLzhntU=
   dependencies:
     speedometer "~1.0.0"
@@ -755,7 +755,7 @@ progress-stream@^2.0.0:
 
 proxy-agent@^4.0.1:
   version "4.0.1"
-  resolved "https://registry.npm.taobao.org/proxy-agent/download/proxy-agent-4.0.1.tgz?cache=0&sync_timestamp=1610406829157&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fproxy-agent%2Fdownload%2Fproxy-agent-4.0.1.tgz#326c3250776c7044cd19655ccbfadf2e065a045c"
+  resolved "https://registry.nlark.com/proxy-agent/download/proxy-agent-4.0.1.tgz?cache=0&sync_timestamp=1626290697042&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fproxy-agent%2Fdownload%2Fproxy-agent-4.0.1.tgz#326c3250776c7044cd19655ccbfadf2e065a045c"
   integrity sha1-MmwyUHdscETNGWVcy/rfLgZaBFw=
   dependencies:
     agent-base "^6.0.0"
@@ -980,7 +980,7 @@ strip-ansi@^6.0.0:
 
 supports-color@^7.1.0:
   version "7.2.0"
-  resolved "https://registry.nlark.com/supports-color/download/supports-color-7.2.0.tgz?cache=0&sync_timestamp=1622293670728&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fsupports-color%2Fdownload%2Fsupports-color-7.2.0.tgz#1b7dcdcb32b8138801b3e478ba6a51caa89648da"
+  resolved "https://registry.nlark.com/supports-color/download/supports-color-7.2.0.tgz?cache=0&sync_timestamp=1626703414084&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fsupports-color%2Fdownload%2Fsupports-color-7.2.0.tgz#1b7dcdcb32b8138801b3e478ba6a51caa89648da"
   integrity sha1-G33NyzK4E4gBs+R4umpRyqiWSNo=
   dependencies:
     has-flag "^4.0.0"
@@ -1177,7 +1177,7 @@ yallist@^3.0.2:
   resolved "https://registry.npm.taobao.org/yallist/download/yallist-3.1.1.tgz#dbb7daf9bfd8bac9ab45ebf602b8cbad0d5d08fd"
   integrity sha1-27fa+b/YusmrRev2ArjLrQ1dCP0=
 
-youtube-mp3-downloader@^0.7.6:
+youtube-mp3-downloader@^0.7.6, youtube-mp3-downloader@^0.7.7:
   version "0.7.7"
   resolved "https://registry.nlark.com/youtube-mp3-downloader/download/youtube-mp3-downloader-0.7.7.tgz#114184c9cfce520256d50174e3eeab17e7d8c23b"
   integrity sha1-EUGEyc/OUgJW1QF04+6rF+fYwjs=
@@ -1200,16 +1200,7 @@ ytb2mp3@^0.2.9:
     mkdirp "^1.0.4"
     youtube-mp3-downloader "^0.7.6"
 
-ytdl-core@^4.0.4, ytdl-core@^4.1.0:
-  version "4.8.3"
-  resolved "https://registry.nlark.com/ytdl-core/download/ytdl-core-4.8.3.tgz#21570d1834db13dec7828cf87bbf4c83c0fe68d7"
-  integrity sha1-IVcNGDTbE97Hgoz4e79Mg8D+aNc=
-  dependencies:
-    m3u8stream "^0.8.3"
-    miniget "^4.0.0"
-    sax "^1.1.3"
-
-ytdl-core@^4.9.0:
+ytdl-core@^4.0.4, ytdl-core@^4.1.0, ytdl-core@^4.9.0:
   version "4.9.0"
   resolved "https://registry.nlark.com/ytdl-core/download/ytdl-core-4.9.0.tgz#d166f6e7ab7c2ac344ada9568f507af1255c6406"
   integrity sha1-0Wb256t8KsNEralWj1B68SVcZAY=
