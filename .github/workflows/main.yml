@@ -18,8 +18,10 @@ jobs:
           npm install ytdl-core@latest --save
           npm install
 
-      - name: Set up ffmpeg
-        run: brew install ffmpeg
+      - uses: FedericoCarboni/setup-ffmpeg@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          id: setup-ffmpeg
 
       - name: Start job
         run: |
