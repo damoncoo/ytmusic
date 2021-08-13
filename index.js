@@ -15,6 +15,7 @@ program
     .option('-q, --qiniu_point <value>', 'qiniu end point')
     .option('-U, --user <value>', 'user')
     .option('-P, --password <value>', 'password')
+    .option('-f, --ffmepg_path <value>', 'ffmepg path', "")
 
 program.parse(process.argv);
 
@@ -36,5 +37,6 @@ yt.upload(options.singer,
     options.end_point,
     options.qiniu_point,
     options.user,
-    options.password
+    options.password,
+    options.ffmepg_path
 )
