@@ -5,7 +5,7 @@
   "repository": "git@github.com:damoncoo/ytmusic.git",
   "author": "Damon Coo <damoncoo@gmail.com>",
   "scripts": {
-    "upload": "node lib/yt_test.js"
+    "upload": "node index_test.js -u https://www.youtube.com/watch?v=-__ORYMrrZo -n 费这么大劲"
   },
   "license": "MIT",
   "dependencies": {
@@ -17,7 +17,7 @@
     "youtube-mp3-downloader": "^0.7.7",
     "ytb2mp3": "^0.2.9",
     "ytdl": "^1.4.1",
-    "ytdl-core": "^4.9.0"
+    "ytdl-core": "^4.9.1"
   },
   "devDependencies": {}
 }
