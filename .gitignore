@@ -3,3 +3,5 @@
 start.sh
 package-lock.json
 .vscode
+yarn-error.log
+lib/xiaoai

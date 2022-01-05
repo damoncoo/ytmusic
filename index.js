@@ -28,15 +28,24 @@ if (ytdl.validateURL(options.url) == false) {
     throw new Error("链接错误")
 }
 
-yt.upload(options.singer,
-    options.name,
-    options.url,
-    options.access_key,
-    options.secret,
-    options.bucket,
-    options.end_point,
-    options.qiniu_point,
-    options.user,
-    options.password,
-    options.ffmepg_path
-)
+function main() {
+    try {
+        yt.upload(
+            options.singer,
+            options.name,
+            options.url,
+            options.access_key,
+            options.secret,
+            options.bucket,
+            options.end_point,
+            options.qiniu_point,
+            options.user,
+            options.password,
+            options.ffmepg_path
+        )
+    } catch (error) {
+        console.log(error)
+    }
+}
+
+main()

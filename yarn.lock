@@ -64,10 +64,15 @@ ast-types@^0.13.2:
   dependencies:
     tslib "^2.0.1"
 
-async@>=0.2.9, async@^3.2.0:
+async@>=0.2.9:
   version "3.2.0"
   resolved "https://registry.npm.taobao.org/async/download/async-3.2.0.tgz#b3a2685c5ebb641d3de02d161002c60fc9f85720"
   integrity sha1-s6JoXF67ZB094C0WEALGD8n4VyA=
+
+async@^3.2.1:
+  version "3.2.2"
+  resolved "https://registry.npmmirror.com/async/download/async-3.2.2.tgz?cache=0&sync_timestamp=1635441306043&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fasync%2Fdownload%2Fasync-3.2.2.tgz#2eb7671034bb2194d45d30e31e24ec7e7f9670cd"
+  integrity sha1-LrdnEDS7IZTUXTDjHiTsfn+WcM0=
 
 axios@^0.21.1:
   version "0.21.1"
@@ -118,6 +123,14 @@ cli-progress@^3.8.2:
   version "3.9.0"
   resolved "https://registry.npm.taobao.org/cli-progress/download/cli-progress-3.9.0.tgz#25db83447deb812e62d05bac1af9aec5387ef3d4"
   integrity sha1-JduDRH3rgS5i0FusGvmuxTh+89Q=
+  dependencies:
+    colors "^1.1.2"
+    string-width "^4.2.0"
+
+cli-progress@^3.9.1:
+  version "3.9.1"
+  resolved "https://registry.nlark.com/cli-progress/download/cli-progress-3.9.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fcli-progress%2Fdownload%2Fcli-progress-3.9.1.tgz#a22eba6a20f53289fdd05d5ee8cb2cc8c28f866e"
+  integrity sha1-oi66aiD1Mon90F1e6MssyMKPhm4=
   dependencies:
     colors "^1.1.2"
     string-width "^4.2.0"
@@ -1177,30 +1190,41 @@ yallist@^3.0.2:
   resolved "https://registry.npm.taobao.org/yallist/download/yallist-3.1.1.tgz#dbb7daf9bfd8bac9ab45ebf602b8cbad0d5d08fd"
   integrity sha1-27fa+b/YusmrRev2ArjLrQ1dCP0=
 
-youtube-mp3-downloader@^0.7.6, youtube-mp3-downloader@^0.7.7:
-  version "0.7.7"
-  resolved "https://registry.nlark.com/youtube-mp3-downloader/download/youtube-mp3-downloader-0.7.7.tgz#114184c9cfce520256d50174e3eeab17e7d8c23b"
-  integrity sha1-EUGEyc/OUgJW1QF04+6rF+fYwjs=
+youtube-mp3-downloader@^0.7.8:
+  version "0.7.8"
+  resolved "https://registry.npmmirror.com/youtube-mp3-downloader/download/youtube-mp3-downloader-0.7.8.tgz#0508e2df6ca05e62110da01952d48bd4cdc2c2de"
+  integrity sha1-BQji32ygXmIRDaAZUtSL1M3Cwt4=
   dependencies:
-    async "^3.2.0"
+    async "^3.2.1"
     fluent-ffmpeg "2.1.2"
     progress-stream "^2.0.0"
     sanitize-filename "^1.6.3"
-    ytdl-core "^4.0.4"
+    ytdl-core "^4.9.1"
 
-ytb2mp3@^0.2.9:
-  version "0.2.9"
-  resolved "https://registry.nlark.com/ytb2mp3/download/ytb2mp3-0.2.9.tgz#15a0317a7b4676a5c722c4742d1bcfed6548fbf2"
-  integrity sha1-FaAxentGdqXHIsR0LRvP7WVI+/I=
+youtube-mp3-downloader@^0.7.9:
+  version "0.7.9"
+  resolved "https://registry.npmmirror.com/youtube-mp3-downloader/download/youtube-mp3-downloader-0.7.9.tgz#c13e72d72b3bd3c9941addbeafa2dadfb26ee358"
+  integrity sha512-r1Wy0RM2yA+aBENBx75U2RYSuoiBx/0u36FR8OOorzWyC3eL6u0z6eGmCZOe7iEj0+cMJZcU3qml+4PnatKXmQ==
   dependencies:
-    cli-progress "^3.8.2"
+    async "^3.2.1"
+    fluent-ffmpeg "2.1.2"
+    progress-stream "^2.0.0"
+    sanitize-filename "^1.6.3"
+    ytdl-core "^4.9.1"
+
+ytb2mp3@^0.2.10:
+  version "0.2.10"
+  resolved "https://registry.npmmirror.com/ytb2mp3/download/ytb2mp3-0.2.10.tgz#a3ccf8300ca7518d315d04c48bedf54ed03616ae"
+  integrity sha1-o8z4MAynUY0xXQTEi+31TtA2Fq4=
+  dependencies:
+    cli-progress "^3.9.1"
     configstore "^5.0.1"
     home-dir "^1.0.0"
     minimist "^1.2.5"
     mkdirp "^1.0.4"
-    youtube-mp3-downloader "^0.7.6"
+    youtube-mp3-downloader "^0.7.8"
 
-ytdl-core@^4.0.4, ytdl-core@^4.1.0:
+ytdl-core@^4.1.0:
   version "4.9.0"
   resolved "https://registry.nlark.com/ytdl-core/download/ytdl-core-4.9.0.tgz#d166f6e7ab7c2ac344ada9568f507af1255c6406"
   integrity sha1-0Wb256t8KsNEralWj1B68SVcZAY=
@@ -1211,7 +1235,7 @@ ytdl-core@^4.0.4, ytdl-core@^4.1.0:
 
 ytdl-core@^4.9.1:
   version "4.9.1"
-  resolved "https://registry.nlark.com/ytdl-core/download/ytdl-core-4.9.1.tgz#f587e2bd8329b5133c0bac4ce5ee1f3c7a1175a9"
+  resolved "https://registry.npmmirror.com/ytdl-core/download/ytdl-core-4.9.1.tgz#f587e2bd8329b5133c0bac4ce5ee1f3c7a1175a9"
   integrity sha1-9YfivYMptRM8C6xM5e4fPHoRdak=
   dependencies:
     m3u8stream "^0.8.3"
