@@ -14,9 +14,8 @@ jobs:
 
       - name: Install dependency
         run: |
-          npm install ytb2mp3@latest --save
-          npm install ytdl-core@latest --save
           npm install
+          python3 -m pip install -U yt-dlp
 
       - uses: FedericoCarboni/setup-ffmpeg@v1
         with:
