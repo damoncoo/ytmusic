@@ -12,9 +12,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@master
 
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
       - name: Install dependency
         run: |
-          npm cache clear --force
           npm install
           python3 -m pip install -U yt-dlp
 
