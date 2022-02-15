@@ -14,6 +14,7 @@ jobs:
 
       - name: Install dependency
         run: |
+          npm cache clear --force
           npm install
           python3 -m pip install -U yt-dlp
 
