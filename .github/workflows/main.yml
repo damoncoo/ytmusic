@@ -12,6 +12,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@master
 
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
       - name: Install dependency
         run: |
           npm install
@@ -25,4 +29,4 @@ jobs:
       - name: Start job
         run: |
           node index.js -u "${{ github.event.client_payload.url }}" -s "${{ github.event.client_payload.singer }}" -n "${{ github.event.client_payload.name }}" -a "${{ secrets.QINIU_KEY }}"  -S "${{ secrets.QINIU_SECRET }}"   -e "${{ secrets.ENT_POINT }}"  -b "${{ secrets.QINIU_BUCKET }}" -q "${{ secrets.QINIU_POINT }}" -U "${{ secrets.YI_USER }}" -P "${{ secrets.YI_PASSWORD }}" -f ${{ steps.setup_ffmpeg.outputs.ffmpeg-path }}
-        
+          
