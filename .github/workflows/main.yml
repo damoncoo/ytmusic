@@ -19,7 +19,7 @@ jobs:
       - name: Install dependency
         run: |
           npm install
-          python3 -m pip install --no-deps -U yt-dlp
+          brew install yt-dlp
 
       - uses: FedericoCarboni/setup-ffmpeg@v1
         with:
