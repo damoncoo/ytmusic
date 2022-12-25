@@ -19,7 +19,9 @@ jobs:
       - name: Install dependency
         run: |
           npm install
-          python3 -m pip install -U yt-dlp
+
+      - name: Setup yt-dlp
+        uses: AnimMouse/setup-yt-dlp@v1    
 
       - uses: FedericoCarboni/setup-ffmpeg@v1
         with:
