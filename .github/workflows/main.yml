@@ -21,9 +21,9 @@ jobs:
           npm install
 
       - name: Setup yt-dlp
-        uses: AnimMouse/setup-yt-dlp@v2   
+        uses: AnimMouse/setup-yt-dlp@v1
 
-      - uses: FedericoCarboni/setup-ffmpeg@v1
+      - uses: FedericoCarboni/setup-ffmpeg@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
         id: setup_ffmpeg
