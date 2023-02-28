@@ -21,7 +21,7 @@ jobs:
           npm install
 
       - name: Setup yt-dlp
-        uses: AnimMouse/setup-yt-dlp@v1    
+        uses: AnimMouse/setup-yt-dlp@v3   
 
       - uses: FedericoCarboni/setup-ffmpeg@v1
         with:
